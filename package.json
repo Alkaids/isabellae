@@ -18,7 +18,7 @@
     "lint": "eslint \"{src,test}/**/*.{ts,tsx}\"",
     "lint:fix": "eslint \"{src,test}/**/*.{ts,tsx}\" --fix",
     "test": "jest",
-    "pub": "npm run build && np"
+    "pub": "npm run build && np --no-yarn"
   },
   "devDependencies": {
     "@testing-library/react": "9.4.0",
