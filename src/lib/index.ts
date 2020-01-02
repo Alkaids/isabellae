@@ -1,1 +1,1 @@
-export { ArrayMethods, arrayMethods } from './array';
+export { ArrayMethods, arrayMethods } from './array'
