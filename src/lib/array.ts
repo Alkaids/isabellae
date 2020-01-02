@@ -1,12 +1,12 @@
 type State<T> = T[]
 
 interface ArrayMethods<T = any> {
-  push: (state: State<T>, item: State<T> | any) => State<T>
+  push: (state: State<T>, item: State<T> | T) => State<T>
   pop: (state: State<T>) => State<T>
   slice: (state: State<T>, start: number, end: number) => State<T>
   empty: () => State<T>
   set: (state: State<T>, newValue: State<T>) => State<T>
-  remove: (state: State<T>, item: any) => State<T>
+  remove: (state: State<T>, item: T) => State<T>
 }
 
 const arrayMethods: ArrayMethods = {
